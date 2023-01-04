@@ -4,3 +4,8 @@ This is a machine learning project that uses various machine learning alogorithm
 <br>
 <br>
 __*Support Vector Machine(SVM) gives the best accuracy*__
+<br>
+# Dataset
+Dataset is present in Kaggle
+<br>
+Link: https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database?resource=download
