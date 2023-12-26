@@ -10,5 +10,8 @@ Dataset is present in Kaggle
 <br>
 Link: https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database?resource=download
 <br>
-# Paper Link: 
+# Paper on this topic
 Link: 
+<br>
+# Deployed App in public
+Link: https://diabetes-prediction-web-app-ankush-mallick.streamlit.app/
