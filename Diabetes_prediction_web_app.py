@@ -6,7 +6,7 @@ warnings.simplefilter('ignore')
 
 
 # Load the saved model
-loaded_model = pickle.load(open("C:/Users/ankus/Downloads/Data Science - Project-Internship Purpose/Paper - 2/Diabetes Prediction Using Machine Learning/trained_model.sav", "rb"))
+loaded_model = pickle.load(open("trained_model.sav", "rb"))
 
 # Creating a function for prediction
 def diabetes_prediction(input_data):
