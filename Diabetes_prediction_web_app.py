@@ -34,9 +34,9 @@ def main():
     # Getting the input data from the user
     Pregnancies = st.text_input('Number of Pregnancies')
     Glucose = st.text_input('Glocose Level')
-    BloodPressure = st.text_input('Blood Pressure Value')
-    SkinThickness = st.text_input('Skin Thickness Value')
-    Insulin = st.text_input('Insulin Level')
+    BloodPressure = st.text_input('Blood Pressure Value - Give a single value')
+    SkinThickness = st.text_input('Skin Thickness Value - Give a single value')
+    Insulin = st.text_input('Insulin Level - Give a single value')
     BMI = st.text_input('BMI Value')
     DiabetesPedigreeFunction = st.text_input('Diabetes Pedigree Function Value')
     Age =  st.text_input('Age of the person')
