@@ -63,7 +63,10 @@ def main():
 
     # Creating a button for Prediction
     if st.button('Please click for getting Diabetes Test Result'):
-        diagnosis = diabetes_prediction([Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age])
+        if Pregnancies == "" or Glucose == "" or BloodPressure == "" or SkinThickness == "" or Insulin == "" or BMI == "" or DiabetesPedigreeFunction == "" or Age == "":
+            st.warning("Please fill all the fields.")
+        else:
+            diagnosis = diabetes_prediction([Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age])
 
     st.success(diagnosis)
 
