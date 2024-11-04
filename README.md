@@ -1,17 +1,17 @@
-# Diabetes prediction using Maching Learning
+# Diabetes Prediction using Maching Learning
 # Description
-This is a machine learning project that uses various machine learning algorithms to predict whether a patient is diabetic or not. Here I am using variour machine learning algorithms like Support Vector Machines(SVM), Random Forest Classifier, Decision Tree Classifier, K-Nearest Neighbours(KNN), Logistic Regression, Logisitic Regression with Cross Validation(CV), Naive Bias, and XGBoost Classifier. I have wrtten a paper in this topic please check it out. The link of the paper is given below.
+This is a machine learning work that uses various machine learning algorithms to predict whether a patient is diabetic or not (non-diabetic). Here, various type of machine learning algorithms like Support Vector Machine Classifier (SVM), Random Forest Classifier (RF), Decision Tree Classifier (DT), K-Nearest Neighbours (KNN), Logistic Regression (LR), Logistic Regression (LR) with Cross-Validation (CV), Naive Bayes Classifier (NB), and XGBoost Classifier (XGB) are used for this. A paper is written in this topic which is under ongoing.
 <br>
 <br>
-__*Logistic Regression gives the best accuracy*__
+__*Logistic Regression gives 83.62% testing accuracy which is the best  testing accuracy among other machine learning models*__
 <br>
-# Dataset
+# Dataset Link
 Dataset is present in Kaggle
 <br>
 Link: https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database?resource=download
 <br>
-# Paper on this topic
-Link: 
+# Paper Link
+Link: Paper writing is in under ongoing
 <br>
-# Deployed App in public
-Link: https://diabetes-prediction-web-app-ankush-mallick.streamlit.app/
+# Deployed Web App Link in public
+Link: https://diabetes-prediction-web-app-ankush-mallick.streamlit.app
