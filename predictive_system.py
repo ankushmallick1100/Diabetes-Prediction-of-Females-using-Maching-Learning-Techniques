@@ -8,10 +8,10 @@ loaded_model = pickle.load(open("trained_model.sav", "rb"))
 
 input_data = (6,148,72,35,0,33.6,0.627,50)
 
-# Changing the input_data to numpy array
+# Changing the input data to a numpy array
 input_data_as_numpy_array = np.asarray(input_data)
 
-# Reshaping the array as we are predicting for one instance
+# Reshaping the array as the prediction is done for one instance
 input_data_reshape = input_data_as_numpy_array.reshape(1,-1)
 
 prediction = loaded_model.predict(input_data_reshape)
