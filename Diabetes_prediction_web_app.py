@@ -21,25 +21,25 @@ def diabetes_prediction(input_data):
     # print(prediction)
 
     if(prediction[0]==0):
-        return "The person is not diabetic"
+        return "The person is not diabetic."
     else:
-        return "The person is diabetic"
+        return "The person is diabetic."
     
 
 def main():
 
     # Giving a title
-    st.title("Diabetes Prediction Web App")
+    st.title("Diabetes Prediction System Web App")
 
-    # Getting the input datat from the user
+    # Getting the input data from the user
     Pregnancies = st.text_input('Number of Pregnancies')
     Glucose = st.text_input('Glocose Level')
-    BloodPressure = st.text_input('Blood Pressure value')
-    SkinThickness = st.text_input('Skin Thickness value')
+    BloodPressure = st.text_input('Blood Pressure Value')
+    SkinThickness = st.text_input('Skin Thickness Value')
     Insulin = st.text_input('Insulin Level')
-    BMI = st.text_input('BMI value')
-    DiabetesPedigreeFunction = st.text_input('Diabetes Pedigree Function value')
-    Age =  st.text_input('Age of the Person')
+    BMI = st.text_input('BMI Value')
+    DiabetesPedigreeFunction = st.text_input('Diabetes Pedigree Function Value')
+    Age =  st.text_input('Age of the person')
 
     if Pregnancies != "":
         Pregnancies = int(Pregnancies)
@@ -62,7 +62,7 @@ def main():
     diagnosis = ''
 
     # Creating a button for Prediction
-    if st.button('Diabetes Test Result'):
+    if st.button('Please click for getting Diabetes Test Result'):
         diagnosis = diabetes_prediction([Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age])
 
     st.success(diagnosis)

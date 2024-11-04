@@ -18,6 +18,6 @@ prediction = loaded_model.predict(input_data_reshape)
 print(prediction)
 
 if(prediction[0]==0):
-    print("The person is not diabetic");
+    print("The person is not diabetic.");
 else:
-    print("The person is diabetic");
+    print("The person is diabetic.");
