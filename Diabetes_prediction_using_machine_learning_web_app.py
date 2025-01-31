@@ -29,7 +29,7 @@ def diabetes_prediction(input_data):
 def main():
 
     # Giving a title
-    st.title("Diabetes Prediction System Web App")
+    st.title("Diabetes Prediction of Females using Machine Learning Techniques Web App")
 
     # Getting the input data from the user
     Pregnancies = st.text_input('Number of Pregnancies')
