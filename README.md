@@ -1,4 +1,4 @@
-# Diabetes Prediction using Maching Learning
+# Diabetes Prediction of Females using Machine Learning Techniques
 # Description
 This is a machine learning work that uses various machine learning algorithms to predict whether a patient is diabetic or not (non-diabetic). Here, various type of machine learning algorithms like Support Vector Machine Classifier (SVM), Random Forest Classifier (RF), Decision Tree Classifier (DT), K-Nearest Neighbours (KNN), Logistic Regression (LR), Logistic Regression (LR) with Cross-Validation (CV), Naive Bayes Classifier (NB), and XGBoost Classifier (XGB) are used for this.
 <br>
