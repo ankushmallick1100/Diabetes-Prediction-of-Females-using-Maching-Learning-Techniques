@@ -5,10 +5,10 @@ This is a machine learning work that uses various machine learning algorithms to
 <br>
 __*Logistic Regression gives 83.62% testing accuracy which is the best  testing accuracy among other machine learning models*__
 <br>
-# Dataset Link
+# Dataset
 Dataset is present in Kaggle
 <br>
 Link: https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database?resource=download
 <br>
-# Deployed Web App Link in public
+# Deployed Web App in public
 Link: https://diabetes-prediction-of-females-using-machine-learning-web-app.streamlit.app
